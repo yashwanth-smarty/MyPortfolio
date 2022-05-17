@@ -1,0 +1,562 @@
+#main{
+	margin: 0px;
+	scroll-behavior: smooth;
+}
+
+/*Header Part*/
+#header-nav{
+	border-radius: 0;
+	border: 0;
+	background: rgb(255, 255, 255,0);
+}
+
+.navbar-brand{
+	padding-top: 25px;
+	margin-top: 2px;
+}
+.navbar-brand h1{
+	color: #FF4500;
+	margin-top:0;
+	margin-bottom:0;
+	line-height: .75;
+	font-family: 'Lora';
+	font-size: 5.2rem;
+	text-shadow: black 3px 1px 3px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0px;
+}
+#nav-list a {
+  color: #FF4500;
+  text-align: center;
+  text-shadow: black 1px 1px 3px;
+  font-weight: bold;
+}
+#nav-list a:hover {
+  background: #fff;
+  border-radius: 50%;
+}
+#nav-list li: hover{
+	border-radius: 0%;
+}
+#nav-list a span {
+  font-size: 1.3em;
+}
+
+.navbar-header .icon-bar {
+  border: 1px solid #FF4500;
+  display: block;
+	transition: transform .5s;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -35px;
+  border: 0px solid #666;
+}
+.navbar-header button.navbar-toggle:hover{
+	background: transparent;
+}
+.navbar-header button.navbar-toggle:focus{
+	background: transparent;
+}
+
+button.navbar-toggle{
+	border: 1.2px solid #FF4500;
+	border-radius: 20%;
+}
+/*Not working*/
+/*button.navbar-toggle.active .icon-bar:{
+	transform: translateY(13px) rotate(45deg);
+}
+button.navbar-toggle.active .icon-bar :{
+	transform: translateY(13px) rotate(45deg);
+	opacity: 0;
+}
+button.navbar-toggle.active .icon-bar :{
+	transform: translateY(-13px) rotate(-45deg);
+}*/
+/*End of Header Part*/
+/*Footer Part*/
+#row{
+	padding-top: 8px;
+}
+#insta{
+	color: white;
+	font-size: 35px;
+	padding: 20px;
+}
+#social-media #insta :hover,#insta :active{
+	color:red ;
+}
+
+#linkedin{
+	color: white;
+	font-size: 35px;
+	padding-right: 20px;
+}
+#social-media #linkedin :hover,#linkedin :active{
+	color:#05a8fa ;
+}
+#git{
+	color: white;
+	font-size: 35px;
+	padding-right: 20px;
+}
+#social-media #git :active,#git :hover{
+	color:black ;
+}
+#mail{
+	color: white;
+	font-size: 35px;
+	padding-right: 20px;
+}
+#social-media #mail :active,#mail :hover{
+	color: #fb6704;
+}
+
+#social-media{
+	text-align: center;
+}
+
+#matter{
+	color: greenyellow;
+	text-shadow: 2px 2px 4px black;
+	font-family: 'Permanent Marker',sans-serif;
+	font-size: .9em;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 2px;
+}
+footer .panel-footer{
+
+	 background-color:#555;
+	 width: 100%;
+   padding-top: 14px;
+   padding-bottom: 14px;
+   bottom: 0;
+   padding-left: 24px;
+   
+}
+
+
+
+#flist li a{
+	color: black;
+	text-decoration: none;
+	font-family: serif;
+	font-size: 1.0em;
+	
+}
+#flist a:hover,a:active {
+	color: whitesmoke;
+}
+#flist {
+	list-style: none;
+	text-align: justify-all;
+	margin-left: -35px;
+}
+li{
+	display: inline;
+}
+
+/*End of Footer Part*/
+
+/*About*/
+
+#about2{
+	margin: 30px 7px 30px 7px;
+	font-family: 'caveat',cursive;
+	font-weight: 600;
+	font-size: 1.2em;
+	width: 98%;
+	text-align: justify-all;
+	color: lightgoldenrodyellow;
+	text-shadow: 2px 2px 3px blue;
+	word-spacing: 2px;
+	letter-spacing: 1.4px;
+}
+#about{
+	margin: 30px 7px 30px 7px;
+	font-family: 'caveat',cursive;
+	font-weight: 600;
+	font-size: 1.2em;
+	width: 98%;
+	text-align: justify-all;
+	color: lightgoldenrodyellow;
+	text-shadow: 2px 2px 3px blue;
+	word-spacing: 2px;
+	letter-spacing: 1.4px;
+}
+#about-box #hi{
+	font-family: 'Macondo';
+	font-size: 2.2em;
+	color: orangered;
+	text-shadow: 1px 1px 2px blue;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+#about-box #im{
+	font-family: 'Macondo';
+	color: forestgreen;
+	font-size: 1.1em;
+	text-shadow: 1px 1px 2px white;
+	float: left;
+	margin-left: 5px;
+	margin-right: 4px;
+}
+#about-box #yash{
+	font-family: 'Calligraffitti';
+	font-size: 2.8em;
+	color: #9209dc;
+  text-shadow: 2px 2px 3px #333;
+  font-weight: 600;
+  margin-left: 2px;
+  margin-right: 2px;
+
+}
+
+#profile .responsive{
+	width: 75%;
+	height: auto;
+	border-radius: 50%;
+	box-shadow: 0px 0px 8px 8px blue inset;
+}
+#profile2 .responsive{
+	width: 75%;
+	height: auto;
+	border-radius: 0%;
+	box-shadow: 0px 0px 8px 8px white inset;
+}
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+
+/*Projects*/
+#phead{
+ margin-left: 30px;
+ font-size: 2.4em;
+ color: darkorchid;
+ text-shadow: 1px 2px 4px #111;
+ text-align: center;
+ font-weight: 600;
+ font-style: italic;
+}
+
+#pbox{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#calci,#passgen,#gform{
+	height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #222;
+  overflow: hidden;
+}
+#calci:hover, #passgen:hover, #gform:hover{
+  box-shadow: 3px 4px 5px 5px #111;
+}
+#calci:active, #passgen:active, #gform:active {
+  box-shadow: 3px 4px 5px 5px #444;
+}
+#calci{
+	background: url('calciclipart.jpg') no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+#passgen{
+	background: url('guessinggame.jpg') no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+#gform{
+	background: url('gformclipart.jpg') no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+#pname{
+	position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+/*Google Form Clone*/
+
+#formsection {    
+  width: 100%;  
+  display: flex;  
+  align-items: center;  
+  justify-content: center; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+ } 
+  .form-group {  
+  width: 100%;  
+  margin-top: 0px;  
+ }  
+  .container1 {  
+  max-width: 400px;  
+  width: 90%;  
+  padding:20px;  
+  box-shadow: 0px 0px 20px #00000030;  
+  border-radius: 8px;  
+  background-color: white; 
+  background: url('gformbg.jpg');
+  background-size: 100% 100%;
+  opacity: .9;
+ }
+
+ .form-group input {  
+  width: 100%;  
+  border: 1.5px solid #444;  
+  padding: 3px;  
+  font-size: 18px;  
+  margin-top: 2px;  
+  border-radius: 4px;  
+ }
+ .check{
+ 	position: relative;
+ 	bottom: 15px;
+ 	font-size: .86em;
+ 	font-family: 'Nunito';
+ }
+ #check{
+ 	position: relative;
+ 	left: 2px;
+ }
+
+  button.submit-btn {  
+  background-color: #99ffeb;
+  border: .3px solid grey; 
+  border-radius: 3px; 
+  float: right;
+  text-align: center;
+  position: relative;
+  top: 10px;
+ }
+ button.submit-btn:hover {
+ 	background-color: lightblue;
+ }
+  button.submit-btn:active{
+  	background-color: lightblue;
+  }
+ label{
+ 	font-family: serif;
+ }
+
+/* Certificates*/
+hr{
+	visibility: hidden;
+}
+
+#cert{
+	font-size: 1.5em;
+	font-family: 'Oleo Script Swash Caps', cursive;
+	font-family: ;
+	font-weight: 500;
+	color: #111;
+}
+.cert{
+	text-align: center;
+}
+
+#cert:hover{
+	color: indianred;
+	text-decoration: none;
+	text-shadow: 2px 2px 3px #333;
+}
+#cert:active{
+	color: indianred;
+	text-decoration: none;
+}
+
+/*Calci*/
+
+#calcisection {   
+  min-height: 100vh;  
+  width: 100%;  
+  display: flex;  
+  align-items: center;  
+  justify-content: center; 
+ }  
+ .container3 {  
+  width: 100%;  
+  max-width: 400px;  
+  background-color: ghostwhite;  
+  border-radius: 8px;  
+  overflow: hidden; 
+  box-shadow: 4px 4px 7px #333;
+  padding: 15px;
+ }  
+ .display {  
+  background-color: rgb(182, 182, 182);  
+  height: 100px;  
+  width: 100%;  
+  text-align: right;  
+  padding: 20px;  
+  font-size: 30px;  
+  position: relative;
+  color: #111;
+  box-shadow: 2px 2px 4px #333;
+  overflow: hidden;
+ }  
+ .display-1 {  
+  opacity: 0.9;  
+  font-size: 20px;  
+  height: 20px;  
+  overflow: visible;
+  color: #222;  
+  font-family:'Orbitron',sans-serif;
+ }  
+ .display-2{
+ 	  font-family:'Orbitron',sans-serif;
+
+ }
+ .temp-result {  
+  position: absolute;  
+  bottom: 0;  
+  left: 10;  
+  font-size: 20px;  
+  opacity: 0.6;
+  color: orangered; 
+  font-family:'Orbitron',sans-serif;   
+ }  
+ .all_button {  
+  color: whitesmoke;  
+  display: grid;  
+  grid-template: repeat(4, 1fr) / repeat(4, 1fr);  
+  grid-gap: 15px;
+  padding-top: 15px;
+ }  
+ .button {  
+  border: 0.5px solid rgba(92, 92, 92, 0.137);  
+  display: inline-block;  
+  height: 80px;  
+  width: 100%;  
+  display: flex;  
+  align-items: center;  
+  justify-content: center;  
+  font-size: 30px;  
+  cursor: pointer;
+  background-color: rgb(39, 55, 59); 
+  box-shadow: 3px 3px 6px #222; 
+ }  
+ .button:hover {  
+  background-color: rgb(30, 43, 46);  
+ }  
+ 
+/*Guessing Game*/
+#ggamesection{
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 7px;
+	background-color: #96d4d4;
+}
+#gamelabel{
+	font-size: 2.5em;
+	color: #0944f6;
+	text-shadow: 2px 2px 1px #111;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'OleoScriptSwashCaps',sans-serif;
+	font-style: italic;
+}
+#gamerules{
+	text-align: center;
+	font-size: 1.3em;
+	color: black;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #fff;
+	font-family: 'Macondo';
+	background-color: #ff944d;
+	border-radius: 10px;
+	border: 2px solid black;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  padding-top: 6px;
+  margin: auto;
+}
+#gnumber{
+	font-size: 1.7em;
+	width: 18%;
+	margin: auto;
+	text-align: center;
+	color: #00ff00;
+	border-radius: 8px;
+	border-radius: 1.5px solid blue;
+	display: flex;
+	align-items: center;
+	margin-top: 15px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#gsubmit{
+	margin: auto;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-shadow: 1px 1px 1px black;
+	font-family: 'Open Sans';
+	background-color: #ffff66;
+	font-weight: bold;
+	width: 30%;
+	color: black;
+	padding: 5px;
+	border-radius: 5px;
+}
+#msgs{
+	text-align: center;
+}
+#msg1{
+	font-family: 'poppins';
+	font-style: italic;
+	text-shadow: 1px 1px 1px #000;
+	font-weight: bold;
+}
+#msg2{
+	color: #8000ff;
+	text-shadow: 1px 1px 1px black;
+	font-family: cursive;
+	font-weight: 600;
+}
+#msg3{
+	color: #ff33cc;
+	text-shadow: 1px 1px 1px black;
+	font-family: cursive;
+	font-weight: 600;
+}
+#refresh{
+	color: whitesmoke;
+	margin: auto;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-shadow: 1px 1px 1px black;
+	font-family: 'poppins';
+	width: 17%;
+	background-color: #ff0000;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+}
