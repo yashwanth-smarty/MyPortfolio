@@ -20,8 +20,20 @@
 	margin-bottom:0;
 	line-height: .75;
 	font-family: 'Lora';
-	font-size: 4.5vmax;
+	font-size: 5.3rem;
 	text-shadow: black 3px 1px 3px;
+}
+
+@media(max-width: 480px){
+	.navbar-brand h1{
+	color: #FF4500;
+	margin-top:0;
+	margin-bottom:0;
+	line-height: .75;
+	font-family: 'Lora';
+	font-size: 9vmin;
+	text-shadow: black 3px 1px 3px;
+}
 }
 .navbar-brand a:hover, .navbar-brand a:focus{
   text-decoration: none;
