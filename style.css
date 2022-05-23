@@ -369,9 +369,13 @@ li{
   button.submit-btn:active{
   	background-color: lightblue;
   }
- label{
+  label{
  	font-family: serif;
+ 	font-size: .9em;
  }
+#gend{
+	font-size: .84em;
+}
 
 /* Certificates*/
 hr{
