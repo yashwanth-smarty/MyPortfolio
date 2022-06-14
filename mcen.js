@@ -79,11 +79,12 @@ document.getElementById("decode").addEventListener("click", function() {
             StartCountIndex = ++index;
             var temp = FindKey(morsecode, MorseCode); 
             document.getElementById("mcdisplay2").innerHTML += temp;
-            if(temp===undefined){
-                document.getElementById("mcdisplay2").innerHTML ="### ";
+            
+        }
+     if(temp===undefined){
+                document.getElementById("mcdisplay2").innerHTML =" ";
                  // alert("Some Mistakes In Your Morse Code...");
             }
-        }
     }
     
 });
