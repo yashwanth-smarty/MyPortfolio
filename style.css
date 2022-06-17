@@ -667,6 +667,8 @@ hr{
   border: 1.99px solid #222;
   text-align: center;
   box-shadow: 1px 1px 1px #222;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 #encode:hover {
@@ -704,3 +706,14 @@ hr{
   text-align: center;
   box-shadow: 1px 1px 1px #222;
 }
+
+#reload:hover {
+ 	background-color: gray;
+ 	color: black;
+ 	text-shadow: 1px 1px 1.4px #111;
+ }
+ #reload:active{
+  background-color: gray;
+ 	color: black;
+ 	text-shadow: 1px 1px 1.4px #111;
+  }
