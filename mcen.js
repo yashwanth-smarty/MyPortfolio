@@ -1,6 +1,11 @@
  //Morse Code Set
-function refresh(){
-  location.reload();
+function refresh1(){
+      document.getElementById("mcdisplay1").innerHTML = "";
+      document.getElementById("alpha").value = "";
+} 
+function refresh2(){
+      document.getElementById("mcdisplay2").innerHTML = "";
+      document.getElementById("morse").value = "";
 } 
 
  var morsecode = {
@@ -53,21 +58,29 @@ document.getElementById("alpha").addEventListener("focusin", function() {
 });
 
 
-document.getElementById("encode").addEventListener("click", function() {
+function encrypted() {
+    document.getElementById('mcdisplay1').innerHTML = '';
+
     var InputStringValue = document.getElementById("alpha").value.toUpperCase();
 
     InputStringValue.split("");
 
     for (var IndexVal = 0; IndexVal < InputStringValue.length; IndexVal++) {
 
-        document.getElementById("mcdisplay1").innerHTML += morsecode[InputStringValue[IndexVal]] + " ";
+      var solen = document.getElementById("mcdisplay1").innerHTML += morsecode[InputStringValue[IndexVal]] + " ";
+
+      if(morsecode[InputStringValue[IndexVal]] === undefined){
+               document.getElementById("mcdisplay2").innerHTML = "#";
+                 //alert("Some Mistakes In Your Morse Code...");
+            } 
 
     }
 
-});
+}
 
 //Decoder
-document.getElementById("decode").addEventListener("click", function() {
+function decrypted() {
+        document.getElementById('mcdisplay2').innerHTML = '';
     var StartCountIndex = 0,
         InputMorseCode = document.getElementById("morse").value.toString() + " ";
     // try {
@@ -79,21 +92,30 @@ document.getElementById("decode").addEventListener("click", function() {
             StartCountIndex = ++index;
             var temp = FindKey(morsecode, MorseCode); 
             document.getElementById("mcdisplay2").innerHTML += temp;
-            
+            var sol = document.getElementById("mcdisplay2").innerHTML
+             
         }
-     if(temp===undefined){
-                document.getElementById("mcdisplay2").innerHTML =" ";
-                 // alert("Some Mistakes In Your Morse Code...");
-            }
+       if(sol===undefined){
+               document.getElementById("mcdisplay2").innerHTML = "";
+                 //alert("Some Mistakes In Your Morse Code...");
+            } 
     }
     
-});
+}
 function FindKey(morsecode, Value) {
     for (var Keys in morsecode) {
         if (morsecode.hasOwnProperty(Keys)) {
             if (morsecode[Keys] === Value) {
                 return Keys.toLowerCase();
             }
+                        
         }
+        
     }
+    if(morsecode.hasOwnProperty(Keys)){
+      if(morsecode[Keys]!=Value){
+         return "#";
+      }
+    }
+
 }
