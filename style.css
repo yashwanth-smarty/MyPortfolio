@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Merienda&family=Pacifico&family=Roboto+Serif&family=Style+Script&display=swap');
 #main{
 	margin: 0px;
 	scroll-behavior: smooth;
@@ -151,9 +152,9 @@ footer .panel-footer{
 	 width: 100%;
    padding-top: 14px;
    padding-bottom: 14px;
-   bottom: 0;
    padding-left: 24px;
-   
+   position: relative;
+   bottom: 0;
 }
 
 
@@ -161,7 +162,7 @@ footer .panel-footer{
 #flist li a{
 	color: black;
 	text-decoration: none;
-	font-family: serif;
+	font-family: 'Pacifico', cursive;
 	font-size: 1.0em;
 	
 }
@@ -181,11 +182,19 @@ li{
 
 /*About*/
 
+#h2{
+	color: yellow;
+	font-family: 'Lora', serif;
+}
+#myname{
+	color: yellow;
+	font-family: 'Merienda', serif;
+}
 #about2{
 	margin: 30px 7px 30px 7px;
-	font-family: 'caveat',cursive;
+	font-family: 'Merienda';
 	font-weight: 600;
-	font-size: 1.2em;
+	font-size: .8em;
 	width: 98%;
 	text-align: justify-all;
 	color: lightgoldenrodyellow;
@@ -195,9 +204,9 @@ li{
 }
 #about{
 	margin: 30px 7px 30px 7px;
-	font-family: 'caveat',cursive;
+	font-family: 'Merienda', cursive;
 	font-weight: 600;
-	font-size: 1.2em;
+	font-size: 0.8em;
 	width: 98%;
 	text-align: justify-all;
 	color: lightgoldenrodyellow;
@@ -240,10 +249,10 @@ li{
 	box-shadow: 0px 0px 8px 8px blue inset;
 }
 #profile2 .responsive{
-	width: 75%;
+	width: 55%;
 	height: auto;
-	border-radius: 0%;
-	box-shadow: 0px 0px 8px 8px white inset;
+	border-radius: 10%;
+	box-shadow: 0px 0px 8px 8px blue inset;
 }
 .center{
 	display: block;
@@ -390,10 +399,10 @@ hr{
 }
 
 #cert{
-	font-size: 1.5em;
+	font-size: 1em;
 	font-family: 'Oleo Script Swash Caps', cursive;
-	font-family: ;
 	font-weight: 500;
+	text-shadow: 1px 1px 1px whitesmoke;
 	color: #111;
 }
 .cert{
@@ -401,9 +410,9 @@ hr{
 }
 
 #cert:hover{
-	color: indianred;
+	color: mediumblue;
 	text-decoration: none;
-	text-shadow: 2px 2px 3px #333;
+	text-shadow: 1px 1px 1px whitesmoke;
 }
 #cert:active{
 	color: indianred;
