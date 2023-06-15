@@ -48,7 +48,7 @@
 #nav-list a {
   color: #FF4500;
   text-align: center;
-  text-shadow: black 1px 1px 3px;
+  text-shadow: 1px 1px 1px #000;
   font-weight: bold;
 }
 #nav-list a:hover {
